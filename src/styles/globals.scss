@@ -7,7 +7,7 @@ $body_bg : linear-gradient(to right, rgb(240, 240, 240), rgb(235, 235, 235) );
 $search_bg : rgba(95, 110, 241, 0.63);
 $color_text : darken($color: $search_bg, $amount: 1);
 $gray_bg : rgb(228, 228, 228);
-$main_color : tomato;
+$main_color : rgb(228, 37, 3);
 
 :root{
   box-sizing: border-box;
@@ -435,7 +435,7 @@ a{
 
 
  .swiper-container{
-   width: 21em;
+   width: 25em;
  }
 
   .main_display{
@@ -472,7 +472,7 @@ a{
       margin: 1em 0 0 0 ;
       
       .item{
-        
+        padding: .5em 1.2em;
        .left{
          h6{
            font-size: 1em;
@@ -560,7 +560,7 @@ a{
     display: flex;
     justify-content: space-evenly;
     background-color: 
-    tomato;
+    $main_color;
     padding: .5em 0em;
     
     i{
