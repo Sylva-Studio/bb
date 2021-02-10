@@ -76,6 +76,7 @@ body{
 
   .slide{
     display: none;
+
   }
 
   .create{
@@ -145,8 +146,6 @@ body{
     }
 
     .item{
-      position: sticky;
-      top: 4em;
       background-color: white;
       margin-bottom: 1em;
       padding: .5em;
@@ -281,6 +280,8 @@ body{
     .category_item{
       margin-bottom: 1em;
       font-size: .8em;
+      position: sticky;
+      top: 4em;
     }
   }
 
@@ -432,7 +433,7 @@ a{
   }
 
  .swiper-container{
-   width: 17em;
+   width: 19em;
  }
 
   .main_display{
