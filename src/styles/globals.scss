@@ -152,7 +152,12 @@ body{
       border-radius: $border_radius;
       border: .03em solid rgba(184, 184, 184, 0.63) ;
       transition: all .5s linear;
+      color: rgb(78, 78, 78);
 
+      p{
+        word-spacing: .2em;
+        line-height: 1.1em;
+      }
       &:hover{
         box-shadow: .1em .1em .4em rgba(177, 177, 177, 0.63);
       }
@@ -428,12 +433,9 @@ a{
     }
   }
 
-  i{
-    color: white;
-  }
 
  .swiper-container{
-   width: 19em;
+   width: 21em;
  }
 
   .main_display{
@@ -470,7 +472,21 @@ a{
       margin: 1em 0 0 0 ;
       
       .item{
-        margin: .5em;
+        
+       .left{
+         h6{
+           font-size: 1em;
+         }
+         button{
+           font-size: 1em;
+         }
+       }
+
+       .item_center{
+         img{
+          height: 7em;
+         }
+       }
       }
       .user_info{
        
@@ -481,7 +497,7 @@ a{
     }
   }
   .navBar{
-    
+    height: 8vh;
   }
   .desktop_only{
     display: none;
@@ -547,7 +563,9 @@ a{
     tomato;
     padding: .5em 0em;
     
-    
+    i{
+      color: white;
+    }
   }
 
   

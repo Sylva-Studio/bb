@@ -50,7 +50,7 @@ function index() {
           <h4 className="post_title">
           Fugiat nulla architecto hic voluptatem nemo
           </h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nulla architecto hic voluptatem nemo, natus ex molestiae provident reiciendis. Similique architecto veniam fugit corporis nemo, ipsam asperiores atque praesentium aut?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nulla architecto hic voluptatem nemo, natus ex molestiae provident reiciendis.</p>
           <h6 className="read_more">More</h6>
           <img src="/image/service3flipped.jpg" alt="fugit corporis nemo"/>
         </div>
@@ -107,7 +107,7 @@ function index() {
           <h4 className="post_title">
           Fugiat nulla architecto hic voluptatem nemo
           </h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nulla architecto hic voluptatem nemo, natus ex molestiae provident reiciendis. Similique architecto veniam fugit corporis nemo, ipsam asperiores atque praesentium aut?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nulla architecto hic voluptatem nemo, natus ex molestiae provident reiciendis. </p>
           <h6 className="read_more">More</h6>
           <img src="/image/service3flipped.jpg" alt="fugit corporis nemo"/>
         </div>
