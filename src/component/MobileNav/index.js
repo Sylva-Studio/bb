@@ -11,7 +11,7 @@ function index() {
      
       <div className="logo">
        <Link href="/">
-       <a >MAS</a>
+       <a >18Lene</a>
        </Link>
       </div>
      
