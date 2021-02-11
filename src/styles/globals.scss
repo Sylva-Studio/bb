@@ -19,6 +19,30 @@ $main_color : rgb(228, 37, 3);
  
 }
 
+.sty{
+  background-color : teal;
+  height : 100vh;
+  padding: 1em;
+
+  h3{
+    transform: translateX(-1000%);
+  }
+
+  transition: all .5s linear;
+
+  &.open{
+    h3{
+      color: white;
+      font-size: 2em;
+      font-style: italic;
+      font-weight: bolder;
+      transform: translateX(0);
+      
+    }
+  }
+}
+
+
 body{
   font-family:  Helvetica, sans-serif;
   background-image: $body_bg;
@@ -39,7 +63,7 @@ body{
 }
 
 .swiper-container{
-  width: 19em;
+  width: 15em;
 }
 .swiper-wrapper{
   padding: 0;
@@ -61,7 +85,7 @@ body{
 
 .main_display{
   display: grid;
-  grid-template-columns: 4fr 2fr  ;
+  grid-template-columns: 5fr 2fr  ;
   grid-gap: 1em;
   // display: flex;
   margin-top: 5em;
@@ -336,7 +360,7 @@ a{
     height: 100%;
     width: 80%;
     align-items: center;
-    grid-template-columns: 10em 4em 4em 4em 5em 20em 5em 8em  ;
+    grid-template-columns: 12em 3em 3em 3em 4em 20em 4em 8em  ;
 
     a{
       color: $main_color;
@@ -420,7 +444,7 @@ a{
 .container{
   width: 100%;
   .container_inner{
-    width: 90%;
+    width: 88%;
     margin: 2em auto;
   }
 }

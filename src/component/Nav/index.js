@@ -10,7 +10,7 @@ function index() {
       <div className="navBar_inner">
       <div className="logo">
        <Link href="/">
-       <a >MAS</a>
+       <a >18Lene</a>
        </Link>
       </div>
       <div className="home">
@@ -49,7 +49,7 @@ function index() {
       <i class="fas fa-user-circle"></i>
       </div>
       <div className="create_post">
-      <Link href="/CreatePost">
+      <Link href="/Learn">
        <a >
        <h5>Create Post</h5>
        </a>

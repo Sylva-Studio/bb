@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import CreatePost from '../../pages/CreatePost'
 import HidePost from '../HidePost'
 import Slider from '../Slider'
+
+
 function index() {
 
   const[isCreateOpen, setCreateOpen] = useState(false)
